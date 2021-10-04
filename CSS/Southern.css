@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mako&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Mako', sans-serif;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+
+/* Styles */
+p {
+  font-size: 1em;
+  color: #484848;
+}
+a {
+  text-decoration: none;
+  color: red;
+}
+
+
+
+
+
+
+/* Headings */
+h1 {
+  font-size: 2em;
+  color: #2F2F2F;
+}
+h2 {
+  font-size: 1.6em;
+  color: rgb(78,79,81);
+}
+h3 {
+  font-size: 1.15em;
+  color: rgb(34,34,38);
+}
+h4 {
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Southern Tech */
+.CenterX {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.Centerly {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Clear {
+  content: '';
+  clear: both;
+}
+
+
+
+
+
+.Wrap {
+      width: 1200px;
+      margin: 0 auto;
+}
+.Wrap-Promo {
+  width: 1000px;
+  margin: 0 auto;
+}
+.FooterWrap {
+  width: 800px;
+  margin: 0 auto;
+  background: blue;
+}
